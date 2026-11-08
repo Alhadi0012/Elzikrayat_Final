@@ -1,0 +1,20 @@
+# Secrets
+server/.env
+client/.env
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Temporary uploads - the folder is kept, its contents are not
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Build output
+client/dist/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
